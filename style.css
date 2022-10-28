@@ -64,15 +64,16 @@ background-color: rgba(0, 255, 255, 0.252);
 /*  home start */
 .btn{
 display: inline-block;
+background-color: rgba(1, 21, 39, 0.933);
 padding: 0.9rem 1.9rem;
-color: black !important;
+color: #fff!important;
 border-radius: 16px;
 text-transform: capitalize;
 transition: 0.3s;
 
 }
 .btn:hover{
-    background-color: rgba(0, 255, 255, 0.252);
+    background-color: rgba(1, 21, 39, 0.933);
     transform: scale(1) !important;
 }
 
@@ -164,10 +165,15 @@ line-height: 1.4;
     width: 100%;
     transform: none;
    }
-   .btn{
-    padding: 0.5rem;
-    border-radius: 16px;
+   .cta{
+    
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    padding-left: 70px;
+    margin-right: 5px;
+
    }
+   
 
     
 }
