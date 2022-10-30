@@ -7,6 +7,7 @@
     <title>RowGrid Developers</title>
      <!--css-link-->
        <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
        <script src="https://kit.fontawesome.com/a505f05ff5.js" crossorigin="anonymous"></script>
      
 </head>
@@ -27,7 +28,7 @@
       <ul  class="nav_list">
         <li class="nav_item"><a href="#Home" class="nav_link">Home</a></li>
         <li class="nav_item"><a href="#About" class="nav_link">About</a></li>
-        <li class="nav_item"><a href="#Servieces" class="nav_link">Servieces</a></li>
+        <li class="nav_item"><a href="#Services" class="nav_link">Services</a></li>
         <li class="nav_item"><a href="#Project" class="nav_link">Project</a></li>
         <li class="nav_item"><a href="#Contact" class="nav_link">Contacts</a></li>
       </ul>
@@ -42,23 +43,24 @@
 
  <!--home start-->
  <section id="Home">
-<div class="showcase-area">
+<div class="showcase-area" data-aos="fade-up" data-aos-duration="100000">
   <div class="left">
-    <div class="big-title">
-      <h1>Future is <span>Here</span></h1>
+    <div class="big-title"  data-aos="fade-up" data-aos-duration="100000">
+      <h1>What are <span> web design </span>services?</h1>
     </div>
     <p class="text">
-      The site description is added to your site for search engine optimization (SEO) purposes. 
-      The site description text does not appear on your site it is used by search engines and displays in search engine results. 
+      A web design service provides you with a customized website design that's perfect for your business or personal site. 
+      we are with you to create a design that matches your brand, while giving your customers a seamless user experience that will delight them.
     </p>
     <div class="cta">
       <button type="button" class="bt">Read More</button>
     </div>
   </div>
-  <div class="right">
+  <div class="right" data-aos="fade-up" data-aos-duration="100000">
   <img src="image/home image.png" alt="person Image" class="person" srcset="">
 </div>
 </div>
+</section>
 <!--home end-->
 
 
@@ -66,18 +68,15 @@
 
 
 <!--about start-->
- </section>
+ 
  <section class="about" id="About">
-  <div class="content">
+  <div class="content" data-aos="fade-up" data-aos-duration="100000">
     <img src="image/about.jfif" alt="" srcset="">
-    <div class="text1">
+    <div class="text1"data-aos="fade-up" data-aos-duration="100000">
       <h1> About <span>Us</span></h1>
       <h5>Website Developers</h5>
-      <p>we are  front-end web developer. we are can provide clean code and pixel perfect design 
-        we are also make the website more & more interactive with web animations.
-        we are can provide clean code and pixel perfect design. 
-        we are also make the website more & more interactive with web animations.
-        A responsive design makes your website accessible to all users, regardless of their device</p>
+      <p>A web design company is an agency that specializes in creating and maintaining professional
+         websites to help brands reach their audiences and accelerate online growth.</p>
       <button type="button" class="bt">Learn More</button>
     </div>
   </div>
@@ -88,12 +87,12 @@
 
 
  <!--servieces start-->
- <section class="servieces" id="Servieces">
-  <div class="text2">
-    <h1><span>Our</span> Servieces</h1>
+ <section class="servieces" id="Services">
+  <div class="text2" data-aos="fade-up" data-aos-duration="100000">
+    <h1><span>Our</span> Services</h1>
   </div>
-  <div class="row">
-    <div class="column">
+  <div class="row" >
+    <div class="column" data-aos="fade-up" data-aos-duration="100000">
       <div class="card">
         <div class="icon-wrapper">
           <i class="fa-solid fa-code"></i>
@@ -104,38 +103,54 @@
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
       </div>
     </div>
-    <div class="column">
+    <div class="column" data-aos="fade-down" data-aos-duration="200000">
       <div class="card">
         <div class="icon-wrapper">
           <i><ion-icon name="laptop"></ion-icon></i>
         </div>
         <h3>Static Website</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
       </div>
     </div>
-    <div class="column">
+    <div class="column" data-aos="fade-down" data-aos-duration="100000">
       <div class="card">
         <div class="icon-wrapper">
           <i class="fa-brands fa-wordpress"></i>
         </div>
         <h3>Wordpress</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
       </div>
     </div>
-    
   </div>
-
-
  </section>
  <!--servieces end-->
+
+ <!--project start-->
+ <section>
+  <h1>helloi</h1>
+ </section>
+<!--procet end-->
+
+
+
+ 
+ 
+
+
+
 
 
 
 
 <!--icons link-->
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   
   <!--main-js link-->
     <script src="main.js"></script>

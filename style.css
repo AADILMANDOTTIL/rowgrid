@@ -24,8 +24,16 @@ ul{
 span{
     color: #000;
 }
-
-
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal .active{
+    transform: translateY(0px);
+    opacity: 1 ;
+}
 
 
 
@@ -55,7 +63,6 @@ header{
 .header_logo{
     color: #fff;
     font-weight: 900;
-    letter-spacing: 2px;
     line-height: 4px;
 }
 .nav_list{
@@ -101,6 +108,9 @@ font-size: 40px;
 color: #ffcc74;
 text-transform: capitalize;
 line-height: 1.4;
+}
+.big-title h1{
+    font-size: 35px;
 }
 .text{
     color: rgba(0, 0, 0, 0.592);
@@ -300,6 +310,12 @@ h3{
 
 
 
+
+/*project start*/
+/*project end*/
+
+
+
 /*media quary start*/
 @media screen and (max-width: 768px) {
     header{
@@ -362,6 +378,7 @@ h3{
 
 
 
+
  /* home*/
    .showcase-area{
     grid-template-columns: 1fr;
@@ -391,6 +408,7 @@ h3{
     flex-wrap: wrap;
     margin-top: 20px;
 }
+
 /* servieces end*/
 
 }
