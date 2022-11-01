@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RowGrid Developers</title>
-     <!--css-link-->
+    
+     <!--swiper link-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+      <!--css-link-->
        <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
        <script src="https://kit.fontawesome.com/a505f05ff5.js" crossorigin="anonymous"></script>
@@ -18,9 +22,9 @@
 
 
   <!--header start-->
-  <header class="scroll">
+  <header>
     <div class="logo">
-      <img src="image/logo7.jpg" alt="" srcset="">
+      <img src="image/logo4.jpeg" alt="" srcset="">
       <a href="" class="header_logo">rowgrid</a>
     </div>
     <nav class="nav" id="nav-menu">
@@ -87,8 +91,8 @@
 
 
  <!--servieces start-->
- <section class="servieces" id="Services">
-  <div class="text2" data-aos="fade-up" data-aos-duration="100000">
+ <section class="services1" id="Services">
+  <div class="text3" data-aos="fade-up" data-aos-duration="100000">
     <h1><span>Our</span> Services</h1>
   </div>
   <div class="row" >
@@ -128,9 +132,89 @@
  <!--servieces end-->
 
  <!--project start-->
- <section>
- </section>
+ <section class="services1 " id="Project">
+  <div class="text3" data-aos="fade-up" data-aos-duration="100000">
+    <h1><span>Our</span> Project</h1>
+  </div>
+  <div class=" slide-container swiper mySwiper " data-aos="fade-up" data-aos-duration="100000">
+    <div class="slide-content">
+      <div class="swiper-wrapper card-wrapper ">
+        <div class="swiper-slide card1 ">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="image/project-1.png" alt="" class="card-img" srcset="">
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="name">Realme Production </h3>
+            <button class="button"> <a href="https://admcompany.github.io/relme.com/">Demo</a></button>
+          </div>
+        </div>
+        <div class="swiper-slide card1 ">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="image/project-2.png" alt="" class="card-img" srcset="">
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="name">Marshy Bistro Cafe</h3>
+            <button class="button"> <a href="https://admcompany.github.io/marshybistro.com/">Demo</a></button>
+          </div>
+        </div>
+        <div class="swiper-slide card1 ">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="image/project-3.png" alt="" class="card-img" srcset="">
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="name">Delta BUsiness Solutions</h3>
+            <button class="button"> <a href="https://admcompany.github.io/dbs.com/">Demo</a></button>
+          </div>
+        </div>
+        <div class="swiper-slide card1 ">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="image/project-4.png" alt="" class="card-img" srcset="">
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="name">Personal Site</h3>
+            <button class="button"> <a href="https://admcompany.github.io/adil.com/">Demo</a></button>
+          </div>
+        </div>
+        
+      </div>
+    
+    </div>
+    <div class="swiper-button-next arrow"></div>
+      <div class="swiper-button-prev arrow"></div>
+      <div class="swiper-pagination"></div>
+  </div>
+
+
+  
+  </section>
+
 <!--procet end-->
+
+
+
+
+<!--contact start-->
+
+<section class="services1" id="Contact">
+  <div class="text3" data-aos="fade-up" data-aos-duration="100000">
+    <h1><span>C</span>ontact</h1>
+  </div>
+
+
+  </section>
+<!--contact end-->
 
 
 
@@ -150,8 +234,48 @@
   <script>
     AOS.init();
   </script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+   
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".slide-content", {
+      slidesPerView: 3,
+      spaceBetween: 25,
+      loop: true,
+      centerSlide:'true',
+      fade:'true',
+      grabCursor:'true',
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets:true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints:{
+        0:{
+          slidesPerView:1,
+        },
+        520:{
+          slidesPerView:2,
+        },
+        950:{
+          slidesPerView:3
+        },
+      }
+    });
+  </script>
   
-  <!--main-js link-->
-    <script src="main.js"></script>
 </body>
+
+  <!--main-js link-->
+  <script src="main.js"></script>
+ <!-- Swiper JS -->
+
+
 </html>
