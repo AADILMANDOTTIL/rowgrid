@@ -449,6 +449,46 @@ h3{
 
 
 
+
+/*contact-form start*/
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    row-gap: 1rem;
+    margin-bottom: 160px;
+}
+.contact-form input,.contact-form textarea{
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 15px;
+    color: #000;
+    background: #ffcc74;
+    border-radius: 0.4rem;
+}
+
+.contact-form .send-btn{
+    width: 120px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px;
+    background: #ffcc74;
+    cursor: pointer;
+    color:#000;
+}
+
+.contact-form .send-btn:hover{
+    background: #ffcc74;
+    transition: 0.3s all linear;
+}
+/*contact-form end*/
+
+
+
 /*media quary start*/
 @media screen and (max-width: 768px) {
     header{
@@ -557,6 +597,13 @@ h3{
     margin:0;
 }
 .slide-content{
+    width: 80%;
+}
+/*project-end*/
+
+
+/*contact-start*/
+.contact-form{
     width: 80%;
 }
 }
