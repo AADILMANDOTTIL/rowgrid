@@ -116,7 +116,6 @@ line-height: 1.4;
     max-width: 600px;
     line-height: 2.3rem;
     text-align: justify;
-    text-indent: 30px;
 }
 .showcase-area .btn{
     box-shadow: 0 0 40px 2px rgba(0, 0,0, 0.05);
@@ -479,7 +478,9 @@ h3{
     background: #ffcc74;
     cursor: pointer;
     color:#000;
+
 }
+
 
 .contact-form .send-btn:hover{
     background: #ffcc74;
@@ -606,6 +607,7 @@ h3{
 .contact-form{
     width: 80%;
 }
+
 }
 
 
@@ -645,6 +647,9 @@ h3{
     }
     .text3 h1{
         font-size: 42px;
+    }
+    .text{
+        text-align: justify;
     }
 
 }
