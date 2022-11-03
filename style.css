@@ -450,6 +450,50 @@ h3{
 
 
 /*contact-form start*/
+.contact .box-container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+.box-container .box1{
+    
+    padding: 2rem;
+    border:2px solid #000;
+    background-color: #ffcc74 transparent ;
+    width: 22%;
+    margin-top: -100px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.box-container .box1:hover{
+    background-color: #ffcc74;
+}
+.box-container .box1 i{
+    font-size: 2rem;
+    color: #000;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+
+}
+.box-container .box1 h3{
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+.box-container .box1 p{
+    font-size: 1rem;
+    text-transform: none;
+    color: #000;
+}
+
+
 .contact-form{
     max-width: 600px;
     margin: auto;
@@ -464,8 +508,9 @@ h3{
     font-size: 0.9rem;
     padding: 15px;
     color: #000;
-    background: #ffcc74;
+    background: #ffcc74 transparent;
     border-radius: 0.4rem;
+    border: 2px solid #000;
 }
 
 .contact-form .send-btn{
@@ -475,7 +520,7 @@ h3{
     font-weight: 500;
     text-transform: uppercase;
     padding: 12px;
-    background: #ffcc74;
+    background: #ffcc74 transparent;
     cursor: pointer;
     color:#000;
 
@@ -487,6 +532,66 @@ h3{
     transition: 0.3s all linear;
 }
 /*contact-form end*/
+
+/*footer start*/
+.footer{
+    padding: 40px 0;
+    background-color:rgba(1, 21, 39, 0.933) ;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff;
+
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    line-height: 60px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    background: #ffcc74;
+    border: 3px solid #000;
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}   
+.footer ul a{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.8;
+}
+/*footer end*/
 
 
 
@@ -607,6 +712,18 @@ h3{
 .contact-form{
     width: 80%;
 }
+.contact .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    margin-top: -100px;
+
+}
+.box-container .box1{
+    width: 80%;
+    margin:10px;
+}
 
 }
 
@@ -651,5 +768,21 @@ h3{
     .text{
         text-align: justify;
     }
+
+
+
+    .contact .box-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        margin-top: -100px;
+    
+    }
+    .box-container .box1{
+        width: 80%;
+        margin:10px;
+    }
+    
 
 }
